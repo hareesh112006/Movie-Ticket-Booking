@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking Feedback</title>
+    <link rel="stylesheet" a href="style.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: brown;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .containe {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .h {
+            margin-top: 0;
+        }
+        .l{
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: brown;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="containe">
+        <h2 class="h">Movie Ticket Booking Feedback</h2>
+        <form action="#" method="post">
+            <label class="l" for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label class="l" for="email">Your Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label class="l" for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="movie.html">Home</a></li>
+                    <li><a href="Movie selection.html">Movies</a></li>
+                    <li><a href="seat selection.html">Tickets</a></li>
+                    <li><a href="contact. html.html">Contact</a></li>
+                    <li><a href="login .html">Log Out</a></li>
+                    <li><a href="feedback.html">feedback</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>Email: moviecinema@gmail.com</p>
+                <p>Phone: 7092937484</p>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Movie Ticket Booking
+        </div>
+    </footer>
+</body>
+</html>
